@@ -17,7 +17,7 @@ This project scrapes public data on Ontario research facilities from the CFI Res
 ## Project Structure
 
 - `lab_scraper.py`  
-  - Discovers all Ontario facility URLs via the Navigator search pages (`province=2100`, 44 pages total by Dec 2025).
+  - Discovers all Ontario facility URLs via the Navigator search pages (`province=2100`, 44 pages total as of Dec 2025).
   - For each facility page, extracts:
     - `Lab Name` (from the page title).
     - `Sectors` of application (from the sectors field on the profile).
